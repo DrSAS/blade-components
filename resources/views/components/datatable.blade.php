@@ -23,7 +23,7 @@
                 },
                 columns: [
                     {
-                        select: 2,
+                        select: 1,
                         render: function(value, td, rowIndex, cellIndex) {
                             if (!value || !Array.isArray(value) || value.length === 0) return '';
                             const text = value[0]?.data || '';
