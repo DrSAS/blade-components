@@ -1,0 +1,22 @@
+{
+    "name": "drsas/blade-components",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "DrSAS\\BladeComponents\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DrSAS\\BladeComponents\\BladeComponentsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "laravel/framework": "^9.0|^10.0|^11.0|^12.0",
+        "spatie/laravel-csp": "^3.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
