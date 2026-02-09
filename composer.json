@@ -15,7 +15,8 @@
     },
     "require": {
         "laravel/framework": "^9.0|^10.0|^11.0|^12.0",
-        "spatie/laravel-csp": "^3.0"
+        "spatie/laravel-csp": "^3.0",
+        "livewire/livewire": "^3.7"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
